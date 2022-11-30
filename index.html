@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Map Integration Task</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="container">
+<div class="wrapper">
+    <div id="map"></div>
+    <div class="select__wrapper">
+        <select class="markersSelect" name="markersSelect">
+            <option value="main">Main Office</option>
+            <option value="all">Show All Locations</option>
+            <option value="office">Offices</option>
+            <option value="warehouses">Warehouses</option>
+            <option value="clients">Clients</option>
+        </select>
+        <div class="select__arrow"></div>
+        <div class="select__arrow"></div>
+    </div>
+</div>
+<script src="index.js"></script>
+<script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADFxhpPZG5nW5F35T-_HuW-MPBQzoP1D8&callback=initMap">
+</script>
+</body>
+</html>
